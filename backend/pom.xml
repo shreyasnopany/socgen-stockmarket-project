@@ -65,10 +65,11 @@
 		</dependency>
 	</dependencies>
 	<modules>
-		<module>bug-service</module>
-		<module>email-service</module>
         <module>exchange-service</module>
 		<module>company-service</module>
+		<module>excel-service</module>
+		<module>sector-service</module>
+		<module>login-service</module>
 	</modules>
 	<build>
 		<plugins>

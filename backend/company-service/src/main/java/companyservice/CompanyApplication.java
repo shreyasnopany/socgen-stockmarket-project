@@ -5,7 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import companyservice.repository.CompanyRepository;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages={
+        "stockexchange", "companyservice"
+}
+)
+
 @EnableMongoRepositories(basePackageClasses = CompanyRepository.class)
 public class CompanyApplication {
 

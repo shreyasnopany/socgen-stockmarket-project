@@ -18,14 +18,12 @@ public class ExchangeController {
     private final ExchangeService exchangeService;
 
     @Autowired
-    public ExchangeController(ExchangeService exchangeService) {
+    public ExchangeController(ExchangeService exchangeService){
         this.exchangeService = exchangeService;
     }
 
-
     @GetMapping(value = "/exchange")
-    public List<Exchange> getExchanges()
-    {
+    public List<Exchange> getExchanges(){
         return exchangeService.getExchanges();
     }
 
