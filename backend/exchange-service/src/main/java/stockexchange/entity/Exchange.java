@@ -1,4 +1,4 @@
-package stockexchange.entities;
+package stockexchange.entity;
 
 import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;

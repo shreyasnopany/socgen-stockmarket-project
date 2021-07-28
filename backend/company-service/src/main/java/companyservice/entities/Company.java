@@ -39,6 +39,6 @@ public class Company {
     @Column()
     public List<String> board_of_directors;
 
-    @Column(length = 8)
-    public int exchange_id;
+    @Column
+    public List<Integer> stock_exchanges;
 }

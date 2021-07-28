@@ -25,19 +25,16 @@ public class IPO {
     public int company_id;
 
     @Column(length = 8)
-    public int exchange_id;
+    public int stock_exchange;
+
+    @Column(length = 7, precision = 2)
+    public float price_per_share;
 
     @Column(length = 15)
-    public String price_per_share;
-
-    @Column(length = 10)
-    public String total_shares;
-
-    @Column(length = 10)
-    public String number_of_shares;
+    public int number_of_shares;
 
     @Column
-    public Date open_date_time;
+    public String open_date_time;
 
     @Column(length = 200)
     public String remarks;

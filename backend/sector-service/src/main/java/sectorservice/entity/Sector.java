@@ -1,8 +1,18 @@
-package sectorservice.entities;
+package sectorservice.entity;
+
+import lombok.*;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+@Getter
+@Setter
+@Document(collection = "Exchange")
 public class Sector {
 
     @Column(length = 8)

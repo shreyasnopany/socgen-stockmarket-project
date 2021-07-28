@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
-import stockexchange.entities.Exchange;
+import stockexchange.entity.Exchange;
 import stockexchange.repository.ExchangeRepository;
 import companyservice.entities.Company;
 import companyservice.repository.CompanyRepository;
